@@ -10,7 +10,7 @@ repo_url: http://github.com/vapor/vapor
 edit_uri: https://github.com/vapor/documentation/edit/main/docs/
 
 # Copyright
-copyright: "Vapor Documentation &copy; 2023 by Vapor is licensed under CC BY-NC-SA 4.0"
+copyright: 'Vapor Documentation &copy; 2023 by Vapor is licensed under CC BY-NC-SA 4.0'
 
 # Configuration
 theme:
@@ -22,7 +22,7 @@ theme:
 
   palette:
     # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
+    - media: '(prefers-color-scheme: light)'
       primary: black
       accent: blue
       scheme: default
@@ -30,7 +30,7 @@ theme:
         icon: material/brightness-4
         name: Switch to dark mode
     # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
+    - media: '(prefers-color-scheme: dark)'
       primary: black
       accent: blue
       scheme: slate
@@ -381,6 +381,62 @@ plugins:
           site_name: Documentación de Vapor
         - build: true
           default: false
+          locale: pt-BR
+          name: Português (Brasil)
+          nav_translations:
+            APNS: APNS
+            Advanced: Avançado
+            Async: Assíncrono
+            Authentication: Autenticação
+            Basics: Básico
+            Client: Cliente
+            Commands: Comandos
+            Content: Conteúdo
+            Contributing: Contribuir
+            Contributing Guide: Guia de Contribuição
+            Controllers: Controladores
+            Crypto: Criptografia
+            Custom Tags: Tags Personalizadas
+            Deploy: Implantação
+            Environment: Ambiente
+            Errors: Erros
+            Files: Arquivos
+            Fluent: Fluent
+            Folder Structure: Estrutura de Pastas
+            Getting Started: Começando
+            Hello, world: Olá, mundo
+            Install: Instalação
+            JWT: JWT
+            Leaf: Leaf
+            Legacy Docs: Documentação Antiga
+            Logging: Log
+            Middleware: Middleware
+            Migrations: Migrações
+            Model: Modelo
+            Overview: Visão Geral
+            Passwords: Senhas
+            Query: Consulta
+            Queues: Filas
+            Redis: Redis
+            Relations: Relações
+            Routing: Roteamento
+            Schema: Esquema
+            Security: Segurança
+            Server: Servidor
+            Services: Serviços
+            Sessions: Sessões
+            SwiftPM: SwiftPM
+            Testing: Testando
+            Transactions: Transações
+            Upgrading: Atualizando
+            Validation: Validação
+            Version (4.0): Versão (4.0)
+            WebSockets: WebSockets
+            Welcome: Bem vindo
+            Xcode: Xcode
+          site_name: Documentação Vapor
+        - build: true
+          default: false
           locale: pl
           name: Polski
           nav_translations:
@@ -528,71 +584,71 @@ plugins:
       reconfigure_material: true
       reconfigure_search: false
 nav:
-- Welcome: "index.md"
-- Install:
-  - macOS: "install/macos.md"
-  - Linux: "install/linux.md"
-- Getting Started:
-  - Hello, world: "getting-started/hello-world.md"
-  - Folder Structure: "getting-started/folder-structure.md"
-  - SwiftPM: "getting-started/spm.md"
-  - Xcode: "getting-started/xcode.md"
-- Basics:
-  - Routing: "basics/routing.md"
-# TODO: Improve quality
-# Mostly just a code sample with little explanation.
-  - Controllers: "basics/controllers.md"
-  - Content: "basics/content.md"
-  - Client: "basics/client.md"
-  - Validation: "basics/validation.md"
-  - Async: "basics/async.md"
-  - Logging: "basics/logging.md"
-  - Environment: "basics/environment.md"
-  - Errors: "basics/errors.md"
-- Fluent:
-  - Overview: "fluent/overview.md"
-  - Model: "fluent/model.md"
-  - Relations: "fluent/relations.md"
-  - Migrations: "fluent/migration.md"
-  - Query: "fluent/query.md"
-  - Transactions: "fluent/transaction.md"
-  - Schema: "fluent/schema.md"
-  - Advanced: "fluent/advanced.md"
-- Leaf:
-  - Getting Started: "leaf/getting-started.md"
-  - Overview: "leaf/overview.md"
-  - Custom Tags: "leaf/custom-tags.md"
-- Redis:
-  - Overview: "redis/overview.md"
-  - Sessions: "redis/sessions.md"
-- Advanced:
-  - Middleware: "advanced/middleware.md"
-  - Testing: "advanced/testing.md"
-  - Server: "advanced/server.md"
-  - Files: "advanced/files.md"
-  - Commands: "advanced/commands.md"
-  - Queues: "advanced/queues.md"
-  - WebSockets: "advanced/websockets.md"
-  - Sessions: "advanced/sessions.md"
-  - Services: "advanced/services.md"
-  - Request: "advanced/request.md"
-  - APNS: "advanced/apns.md"
-- Security:
-  - Authentication: "security/authentication.md"
-  - Crypto: "security/crypto.md"
-  - Passwords: "security/passwords.md"
-  - JWT: "security/jwt.md"
-- Deploy:
-  - DigitalOcean: "deploy/digital-ocean.md"
-  - Fly: "deploy/fly.md"
-  - Heroku: "deploy/heroku.md"
-  - Supervisor: "deploy/supervisor.md"
-  - Systemd: "deploy/systemd.md"
-  - Nginx: "deploy/nginx.md"
-  - Docker: "deploy/docker.md"
-- Contributing:
-  - Contributing Guide: "contributing/contributing.md"
-- Version (4.0):
-    - Legacy Docs: "version/legacy-docs.md"
-    - Upgrading: "upgrading.md"
-- Release Notes: "release-notes.md"
+  - Welcome: 'index.md'
+  - Install:
+      - macOS: 'install/macos.md'
+      - Linux: 'install/linux.md'
+  - Getting Started:
+      - Hello, world: 'getting-started/hello-world.md'
+      - Folder Structure: 'getting-started/folder-structure.md'
+      - SwiftPM: 'getting-started/spm.md'
+      - Xcode: 'getting-started/xcode.md'
+  - Basics:
+      - Routing: 'basics/routing.md'
+      # TODO: Improve quality
+      # Mostly just a code sample with little explanation.
+      - Controllers: 'basics/controllers.md'
+      - Content: 'basics/content.md'
+      - Client: 'basics/client.md'
+      - Validation: 'basics/validation.md'
+      - Async: 'basics/async.md'
+      - Logging: 'basics/logging.md'
+      - Environment: 'basics/environment.md'
+      - Errors: 'basics/errors.md'
+  - Fluent:
+      - Overview: 'fluent/overview.md'
+      - Model: 'fluent/model.md'
+      - Relations: 'fluent/relations.md'
+      - Migrations: 'fluent/migration.md'
+      - Query: 'fluent/query.md'
+      - Transactions: 'fluent/transaction.md'
+      - Schema: 'fluent/schema.md'
+      - Advanced: 'fluent/advanced.md'
+  - Leaf:
+      - Getting Started: 'leaf/getting-started.md'
+      - Overview: 'leaf/overview.md'
+      - Custom Tags: 'leaf/custom-tags.md'
+  - Redis:
+      - Overview: 'redis/overview.md'
+      - Sessions: 'redis/sessions.md'
+  - Advanced:
+      - Middleware: 'advanced/middleware.md'
+      - Testing: 'advanced/testing.md'
+      - Server: 'advanced/server.md'
+      - Files: 'advanced/files.md'
+      - Commands: 'advanced/commands.md'
+      - Queues: 'advanced/queues.md'
+      - WebSockets: 'advanced/websockets.md'
+      - Sessions: 'advanced/sessions.md'
+      - Services: 'advanced/services.md'
+      - Request: 'advanced/request.md'
+      - APNS: 'advanced/apns.md'
+  - Security:
+      - Authentication: 'security/authentication.md'
+      - Crypto: 'security/crypto.md'
+      - Passwords: 'security/passwords.md'
+      - JWT: 'security/jwt.md'
+  - Deploy:
+      - DigitalOcean: 'deploy/digital-ocean.md'
+      - Fly: 'deploy/fly.md'
+      - Heroku: 'deploy/heroku.md'
+      - Supervisor: 'deploy/supervisor.md'
+      - Systemd: 'deploy/systemd.md'
+      - Nginx: 'deploy/nginx.md'
+      - Docker: 'deploy/docker.md'
+  - Contributing:
+      - Contributing Guide: 'contributing/contributing.md'
+  - Version (4.0):
+      - Legacy Docs: 'version/legacy-docs.md'
+      - Upgrading: 'upgrading.md'
+  - Release Notes: 'release-notes.md'
